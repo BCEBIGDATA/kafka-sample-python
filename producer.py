@@ -61,7 +61,8 @@ if __name__ == '__main__':
             sys.stderr.write('Message delivered to %s [%d]\n' % \
                              (msg.topic(), msg.partition()))
 
-    for i in range(0, 10):
+    numOfRecords = 10
+    for i in range(0, numOfRecords):
         try:
             p.produce(
                 topic,
