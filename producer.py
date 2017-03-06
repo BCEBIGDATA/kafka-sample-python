@@ -65,7 +65,7 @@ if __name__ == '__main__':
         try:
             p.produce(
                 topic,
-                value='%d-Hello kafka' % i,
+                value='%d-hello kafka' % i,
                 key=str(i),
                 callback=_callback)
 

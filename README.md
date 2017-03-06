@@ -6,7 +6,7 @@
 
 - [Python 2.7.x或Python 3.x](https://www.python.org/)
 - [librdkafka 0.9.1以上](https://github.com/edenhill/librdkafka)
-- [confluent-kafka-python 0.9.2及以上](https://github.com/edenhill/librdkafka)
+- [confluent-kafka-python 0.9.2及以上(支持kafka 0.10)](https://github.com/edenhill/librdkafka)
 
 ## 准备工作
 
