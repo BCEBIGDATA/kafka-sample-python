@@ -76,7 +76,7 @@ if __name__ == '__main__':
             else:
                 sys.stderr.write('parition: %d, offset: %d, message: %s\n' %
                                  (msg.partition(), msg.offset(), msg.value()))
-        numOfRecords = numOfRecords - 1
+            numOfRecords = numOfRecords - 1
     except KeyboardInterrupt:
         sys.stderr.write('Aborted by user\n')
 
